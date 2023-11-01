@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from telebot import types, TeleBot
 from keep_alive import keep_alive
 
-TOKEN = os.getenv('tg_key')
+TOKEN = 'YOUR TG TOKEN'
 bot = telebot.TeleBot(TOKEN)
 
 # SQLite3 connection
@@ -115,7 +115,7 @@ def send_welcome(message):
     ]
 
     # Join the commands list into a single string, separated by new lines
-    commands_text = "\n".join(commands)
+    commands_text = "\n\n".join(commands)
 
     # Send the welcome message, commands list, and keyboard
     bot.send_message(chat_id, "Welcome to the Motivational Quotes Bot! 🎉\n\n"
