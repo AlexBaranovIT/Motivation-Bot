@@ -1,4 +1,4 @@
-# File for UptimeRobot Monitor
+# File for UptimeRobot Monitor to run the program 24/7
 from flask import Flask,render_template
 from threading import Thread
 
