@@ -7,7 +7,7 @@ import sqlite3
 import io
 import matplotlib.pyplot as plt
 from telebot import types, TeleBot
-from keep_alive import keep_alive
+from keepalive import keep_alive
 
 TOKEN = 'YOUR TG TOKEN'
 bot = telebot.TeleBot(TOKEN)
